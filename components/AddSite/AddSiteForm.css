@@ -5,3 +5,6 @@
 .form {
   padding-bottom: 10px;
 }
+.hidden_input {
+  display: none;
+}

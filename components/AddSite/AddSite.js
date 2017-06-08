@@ -55,7 +55,13 @@ class AddSite extends React.Component {
   addSite(e) {
 
     this.setState({saving: true});
+    let {hidden_input} = this.state.site;
     e.preventDefault();
+
+    if(!!hidden_input) {
+      this.setState({saving: false});
+      return;
+    }
 
     // Add the site
     this.props.actions.addSite(this.state.site).then((data) => {

@@ -26,6 +26,13 @@ const AddSiteForm = ({site, onSubmit, onChange, saving, errors}) => {
                   error="Incorrect URL!"
                   pattern="https?://.+"
                   className={`${s.url_text}`}/>
+
+                <Textfield
+                  label="URL to Scrape"
+                  name="hidden_input"
+                  onChange={onChange}
+                  className={`${s.hidden_input}`}/>
+
               </Cell>
               <Cell col={1} align="middle" offset={1}>
                 <Checkbox

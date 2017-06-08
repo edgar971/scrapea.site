@@ -1,17 +1,18 @@
 
 import React from 'react';
 import Link from '../Link';
+import s from './styles.css';
 
 function Footer() {
   return (
     <footer className="mdl-mini-footer">
       <div className="mdl-mini-footer__left-section">
-        <div className="mdl-logo">Made by Edgar Pino</div>
+        <div className="mdl-logo">Made by <a href="http://www.edgarpino.com/" target="_blank">Edgar Pino</a></div>
       </div>
       <div className="mdl-mini-footer__right-section">
         <ul className="mdl-mini-footer__link-list">
           <li className="mdl-mini-footer--social-btn" style={{ backgroundColor: 'transparent' }}>
-            <a href="https://github.com/edgar971/website_html_scraper" role="button" title="GitHub">
+            <a href="https://github.com/edgar971/scrapea.site" role="button" title="GitHub">
               <svg width="36" height="36" viewBox="0 0 24 24">
                 <path
                   fill="#fff" d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58
