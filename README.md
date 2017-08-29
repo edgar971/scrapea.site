@@ -1,3 +1,12 @@
+A simple website to scrape HTML, CSS, JS, images and other files from web sites. 
+
+URL: https://scrapea.site/
+
+### Getting Started
+1. Run `npm install` to install the NPM packages.
+1. Run `npm start` to start the development server. 
+
+
 ### Directory Layout
 
 ```shell
